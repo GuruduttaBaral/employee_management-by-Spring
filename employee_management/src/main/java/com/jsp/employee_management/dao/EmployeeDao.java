@@ -15,5 +15,9 @@ public class EmployeeDao {
 		return e1;
 		
 	}
+	public void deleteById(int id) {
+		repo.deleteById(id);
+	}
+	
 
 }
